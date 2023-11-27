@@ -67,6 +67,9 @@ DoS utilizes a single connection, while a DDoS attack utilizes many sources of a
 
 # denial-of-service คืออะไร
 
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/3bb2ded2-24a7-48e5-8307-a80b06467d85)
+
+
 ## การโจมตีแบบ DDoS คือ อะไร
 
 การโจมตีแบบ Distributed denial of service (DDoS) เป็นการโจมที่มีการควบคุมเครื่องผู้ใช้หลายๆ เครื่อง ซึ่งเรียกว่า botnet โจมตีไปยังเป้าหมายพร้อมๆ กัน เพื่อให้เครื่องเซิร์ฟเวอร์หรือเว็บไซต์ปลายทางล่มและไม่สามารถให้บริการผู้ใช้งานคนอื่นได้
