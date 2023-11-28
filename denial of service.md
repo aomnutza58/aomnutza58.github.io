@@ -188,4 +188,4 @@ Cloudflare ให้บริการป้องกัน DDoS ที่ช่
 
 เมื่อคุณกำหนดขอบเขตของการโจมตีได้แล้ว คุณสามารถเริ่มดำเนินการเพื่อลดการโจมตีได้ วิธีหนึ่งในการทำเช่นนี้คือการบล็อกการรับส่งข้อมูลที่มาจากที่อยู่ IP ที่ละเมิด คุณยังสามารถใช้เครื่องมือเช่น Cloudflare เพื่อช่วยปกป้องเว็บไซต์ของคุณจาก DDoS
 
-Source : <a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos">paloaltonetworks</a>, <a href="https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/">cloudflare</a>, <a href="https://www.techtalkthai.com/ddos-protection-from-nsfocus-by-nextwave/">techtalkthai</a>, <a href="https://www.bitdefender.co.th/post/ddos/">bitdefender</a>
+Ref : <a href="https://www.paloaltonetworks.com/cyberpedia/what-is-a-denial-of-service-attack-dos">paloaltonetworks</a>, <a href="https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/">cloudflare</a>, <a href="https://www.techtalkthai.com/ddos-protection-from-nsfocus-by-nextwave/">techtalkthai</a>, <a href="https://www.bitdefender.co.th/post/ddos/">bitdefender</a>
