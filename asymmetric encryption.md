@@ -1,5 +1,7 @@
 # asymmetric encryption
 
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/1e79e967-f8af-476d-a41e-e05351b39e4f)
+
 ## What is asymmetric encryption?
 
 There are two sides in an encrypted communication: the sender, who encrypts the data, and the recipient, who decrypts it. As the name implies, asymmetric encryption is different on each side; the sender and the recipient use two different keys. Asymmetric encryption, also known as public key encryption, uses a public key-private key pairing: data encrypted with the public key can only be decrypted with the private key.
@@ -94,4 +96,38 @@ Elliptic Curve Cryptography (ECC) is gaining favor with many security experts as
 
 To break ECC, an attacker must compute an elliptic curve discrete logarithm, which is significantly more difficult problem than factoring. As a result, ECC key sizes can be significantly smaller than those required by RSA while still delivering equivalent security with lower computing power and battery resource usage.
 
-Source : <a href="https://www.techtarget.com/searchsecurity/definition/asymmetric-cryptography">techtarget</a>, <a href="https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/">cloudflare</a>
+## asymmetric encryption คืออะไร
+
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/80fdf6eb-a4e0-45f9-bfdd-cba8e415a809)
+
+เป็นการเข้ารหัสและถอดรหัสข้อมูลแบบกุญแจ 2 ดอก โดยผู้ส่งจะมีกุญแจ 1 ดอกในการใส่รหัสข้อมูล และผู้รับก็จะมีกุญแจอีก 1 ดอกในการถอดรหัสข้อมูล โดยกุญแจ 2 ดอกนี้จะเรียกว่า “กุญแจคู่ (Key Pair)” ซึ่งแบ่งออกเป็น กุญแจสาธารณะ (Public Key) ที่จะสามารถประกาศให้ผู้อื่นทราบหรือสามารถแจกจ่ายออกไปในที่สาธารณะได้ ส่วนกุญแจส่วนตัว (Private Key) จะต้องเก็บรักษาไว้กับเจ้าของกุญแจเท่านั้นและห้ามไม่ให้ใครรู้ การทำงานของกุญแจทั้ง 2 ดอกนี้จะทำคู่กันคือถ้าเราใช้ Public Key ในการเข้ารหัสลับก็จะต้องใช้ Private Key ในการถอดรหัสลับและหากใช้ Private Key ในการเข้ารหัสลับก็จะต้องใช้ Public Key ในการถอดรหัสลับเช่นกัน 
+
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/96b8f48d-1769-4e12-bb46-0bd008fed3ef)<br>
+
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/0182f72e-07b6-4d45-8a00-684cb01a8623)
+
+## อัลกอริทึมที่ใช้ในการเข้ารหัสแบบอสมมาตร
+
++ Rivest Shamir Adleman (RSA)
++ Digital signature algorithm (DSA)
++ Elliptic curve cryptography (ECC)
+
+## Signing And Verification
+
+สามารถใช้การเข้ารหัสแบบอสมมาตรเพื่อลงลายเซ็นและตรวจสอบลายเซ็นได้ โดยใช้ฟังก์ชัน sign และ verify ของไลบรารี่ crypto ของ nodejs
+
+![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/e23a2506-c356-4db6-b1bf-980822583fe5)
+
++ เมื่อนำข้อมูลมาทำการ sign ด้วย private key ก็จะได้เป็นข้อมูลลายเซ็นที่เรียกว่า signature
++ สามารถตรวจสอบข้อมูลได้โดยการใช้ signature และ public key ด้วยฟังก์ชัน verify ก็จะยืนยันได้ว่าข้อมูลเป็นชุดเดียวกันกับข้อมูลที่ทำการ sign ไว้ในตอนแรก
+
+## การเลือกใช้ Encryption
+
++ หากคุณต้องการเข้ารหัสและถอดรหัสแบบรวดเร็วแนะนำให้ใช้ Symmetric Encryption เนื่องจากในการเข้ารหัสหรือถอดรหัสไฟล์ตัวระบบจะใช้การประมวลผลทางคณิตศาสตร์ที่ไม่ซับซ้อนมากทำให้การใช้ทรัพยากรของคอมพิวเตอร์น้อยกว่าแบบ Asymmetric Encryption
++ หากคุณต้องการให้สามารถระบุตัวตนได้และบริหารจัดการกุญแจให้ง่ายขึ้นแนะนำให้เลือกใช้การเข้ารหัสแบบ Asymmetric Encryption เนื่องจากมีลายเซ็นดิจิทัล (Digital Signature) ที่สามารถตรวจสอบและยืนยันตัวตนได้ว่าลายเซ็นนั้นเป็นของคนที่เซ็นต์ลงไปจริง ๆไม่ได้ถูกปลอมแปลงระหว่างการติดต่อสื่อสารแต่อย่างใด รวมถึงการเข้ารหัสแบบ Asymmetric Encryption ช่วยลดความยุ่งยากในการส่งกุญแจระหว่างผู้รับและผู้ส่งเนื่องจากการใช้กุญแจ 2 ดอกนั้นตัว Private Key เราจะเก็บไว้กับตัวเองเผู้ส่งจะส่งแค่ตัว Public Key ที่สามารถเปิดเผยได้คนอื่นรู้ได้รวมถึงสามารถส่งในช่องทางปกติได้เลยไม่จำเป็นต้องเป็นช่องทางลับ
+
+# สรุป 
+
+Symmetric Encryption และ Asymmetric Encryption ต่างก็มีจุดแข็งที่แตกต่างกันไป การทำความเข้าใจความแตกต่างระหว่างการเข้ารหัสและถอดรหัสของทั้งสองตัวนี้จึงเป็นสิ่งสำคัญสำหรับการเลือกใช้ให้เหมาะสมตามสถานการณ์ต่างๆอีกด้วย 
+
+Ref : <a href="https://www.techtarget.com/searchsecurity/definition/asymmetric-cryptography">techtarget</a>, <a href="https://www.cloudflare.com/learning/ssl/what-is-asymmetric-encryption/">cloudflare</a>, <a href="https://www.ert.co.th/symmetric-encryption-vs-asymmetric-encryption/">ert</a>, <a href="https://duckfollow.co/view/symmetric-vs-asymmetric-encryption">duckfollow</a>
