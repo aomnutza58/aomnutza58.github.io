@@ -11,5 +11,4 @@
 + ☎️ Phone : +66(0)657500410
 + ✉️ E-mail : Kittiphat.pra@chj.co.th
 
-  [Hello World](HelloWorld.md)
-  [Certificate](Cert.md)
+  [Hello World](HelloWorld.md), [Certificate](Cert.md)
