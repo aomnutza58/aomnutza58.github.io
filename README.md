@@ -1,11 +1,8 @@
 # aomnutza58.github.io
 
-![image](https://github.com/aomnutza58/aomnutza58.github.io/assets/86311377/1d794d36-afd9-4afa-975f-627c93cb0186)
-
-
-## Kittiphat Praopsuwan
-+ 🎓 I'am majoing at Information Technology and Communication
-+ 🏫 My college is : Institute of Vovational education : Central Region 5
+## Kittiphat Prasopsuwan
++ 🎓 I'am majoring at Information Technology and Communication
++ 🏫 My college is : Institute of Vocational Education : Central Region 5
 + 🏢 I'am working at Ch injection CO,.LTD.
 + 💼 Job : IT Support
 + ☎️ Phone : +66(0)657500410
@@ -14,4 +11,4 @@
   [Hello World](HelloWorld.md)
 
 ## Certificate
-  [Cisco Certificate Enterprise Infrastructure](CERTENCOR.md), [Cisco Certificate Nexus OS](CERTNEXUS.md), [Wlan Fundamentals](CERTWLAN.md)
+  [Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)](CERTENCOR.md), [Implementing Cisco Nexus Switches](CERTNEXUS.md), [WLAN Fundamental](CERTWLAN.md)
