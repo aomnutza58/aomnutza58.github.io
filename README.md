@@ -1,5 +1,3 @@
-# aomnutza58.github.io
-
 ## Kittiphat Prasopsuwan
 + 🎓 I'am majoring at Information Technology and Communication
 + 🏫 My college is : Institute of Vocational Education : Central Region 5
