@@ -9,4 +9,6 @@
   [Hello World](HelloWorld.md)
 
 ## Certificate
-  [Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)](CERTENCOR.md), [Implementing Cisco Nexus Switches](CERTNEXUS.md), [WLAN Fundamental](CERTWLAN.md)
+  #### [Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)](CERTENCOR.md)
+  #### [Implementing Cisco Nexus Switches](CERTNEXUS.md)
+  #### [WLAN Fundamental](CERTWLAN.md)
