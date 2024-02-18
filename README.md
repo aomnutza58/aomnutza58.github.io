@@ -17,3 +17,5 @@
   [Implementing Cisco Nexus Switches](CERTNEXUS.md)
   
   [WLAN Fundamental](CERTWLAN.md)
+
+  [Fortinet Certified Fundamentals Cybersecurity](CertFCF.md)
