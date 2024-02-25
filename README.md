@@ -19,3 +19,6 @@
   [WLAN Fundamental](CERTWLAN.md)
 
   [Fortinet Certified Fundamentals Cybersecurity](CertFCF.md)
+
+## PDPA
+  [PDPA in Daily Life](PDPA.md)
