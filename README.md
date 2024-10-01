@@ -22,3 +22,10 @@
 
 ## PDPA
   [PDPA in Daily Life](PDPA.md)
+
+## Digital Badges
+<a href="https://www.credly.com/badges/b332ea23-1ace-43b8-86bd-ec85b34d382a">Fundamentals of Predictive Project Management</a>
+
+<a href="https://www.credly.com/earner/earned/badge/b358690a-b4ba-4cac-8c88-80b9f36b7e8a">Fundamentals of Agile Project Management</a>
+
+<a href="https://www.credly.com/earner/earned/badge/d1437119-ab8e-4403-a223-e3226e0d89e1">Generative AI Overview for Project Managers</a>
