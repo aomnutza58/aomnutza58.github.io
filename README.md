@@ -12,7 +12,15 @@
 
 ## Certificate
 
-  [Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR)](CERTENCOR.md)
+  [Implementing and Operating Cisco Enterprise Network Core Technologies (ENCOR) (Training Completed)](CERTENCOR.md)
+
+  [Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) (Training Completed)](CERTENARSI.md)
+
+  [ADVANCED SRV6 AND EVEN](CERTSRV6.md)
+  
+  [Implementing Cisco ACI](CERTACI.md)
+
+  [Implementing Cisco BGP Routing](CERTBGP.md)
   
   [Implementing Cisco Nexus Switches](CERTNEXUS.md)
   
@@ -20,8 +28,13 @@
 
   [Fortinet Certified Fundamentals Cybersecurity](CertFCF.md)
 
-## PDPA
-  [PDPA in Daily Life](PDPA.md)
+  [Road to OSCP](CERTROAD_OSCP.md)
+
+  [Basic Penetration Testing](CERTBASIC_PENETRATION_TESTING.md)
+
+  [CyberSecurity Professional](CERTCYBERSECURITY_PROFESSIONAL.md)
+
+  [Basic CyberSecurity](CERTBASIC_CYBERSECURITY.md)
 
 ## Digital Badges
   [Fundamentals of Predictive Project Management](https://www.credly.com/badges/b332ea23-1ace-43b8-86bd-ec85b34d382a)
