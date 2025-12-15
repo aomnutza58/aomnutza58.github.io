@@ -1,12 +1,10 @@
 ## Kittiphat Prasopsuwan
-+ 🎓 I'am majoring at Information Technology and Communication
++ 🎓 I'am Bachelor in Information Technology and Communication
 + 🏫 My college is : Institute of Vocational Education : Central Region 5
 + 🏢 I'am working at Ch injection CO,.LTD.
 + 💼 Job : IT Support
 + ☎️ Phone : +66(0)657500410
 + ✉️ E-mail : Kittiphat.pra@chj.co.th
-
-  [Hello World](HelloWorld.md)
   
   [Steganography](Steganography.md)
 
@@ -16,7 +14,7 @@
 
   [Implementing Cisco Enterprise Advanced Routing and Services (ENARSI) (Training Completed)](CERTENARSI.md)
 
-  [ADVANCED SRV6 AND EVEN](CERTSRV6.md)
+  [Advanced SRv6 & EVEN](CERTSRV6.md)
   
   [Implementing Cisco ACI](CERTACI.md)
 
