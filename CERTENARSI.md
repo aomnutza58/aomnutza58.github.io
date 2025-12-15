@@ -1,1 +1,1 @@
-[Cert_Cisco_ENARSI.pdf](https://github.com/user-attachments/files/24163706/Cert_Cisco_ENARSI.pdf)
+![CERTENARSI](https://github.com/user-attachments/assets/28d7454d-e1b9-4275-917b-f1c28b1a0145)
